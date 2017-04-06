@@ -1,0 +1,71 @@
+/*
+Text
+ */
+h1 {
+    font-family: "Lucida Grande",sans-serif;
+    font-size: 3.7em;
+    color: khaki;
+    margin-top: 7px;
+    margin-bottom: 7px;
+}
+
+nav {
+    font-family: "Lucida Grande",sans-serif;
+    font-size: 1.2em;
+}
+
+p {
+    font-family: "Lucida Grande",sans-serif;
+    font-size: 1em;
+}
+/*
+structure
+ */
+body {
+    max-width: 900px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 100%;
+    background-image: url("beachNet.jpg");
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+}
+div {
+    max-width: 900px;
+    background-color: #404647;
+    opacity: 0.85;
+    background-size: 100%;
+    padding: 0;
+    height: 1000px;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 40px;
+}
+li a{
+    display: block;
+    color: lightgrey;
+    text-decoration: none;
+    border-style: solid;
+    border-width: 1px;
+    border-color: black;
+    padding: 8px 16px;
+}
+
+li {
+    width: 20%;
+    float: left;
+    background-color: darkblue;
+}
+p {
+    margin-right: 16px;
+    margin-left: 16px;
+    padding-right: 16px;
+    padding-left: 16px;
+    text-align: center;
+    color: #d9dfe0;
+}
