@@ -1,6 +1,7 @@
 /*
 Text
  */
+
 h1 {
     font-family: "Lucida Grande",sans-serif;
     font-size: 3.7em;
@@ -8,7 +9,11 @@ h1 {
     margin-top: 7px;
     margin-bottom: 7px;
 }
-
+h2 {
+    font-family: "Lucida Grande",sans-serif;
+    font-size: 1.8em;
+    text-decoration: none;
+}
 nav {
     font-family: "Lucida Grande",sans-serif;
     font-size: 1.2em;
@@ -18,26 +23,38 @@ p {
     font-family: "Lucida Grande",sans-serif;
     font-size: 1em;
 }
+.forms {
+    font-family: "Lucida Grande",sans-serif;
+    font-size: 1em;
+    color: #d9dfe0;
+}
+
 /*
 structure
  */
+html {
+    background: url("beachNet.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
 body {
     max-width: 900px;
     text-align: center;
     margin-left: auto;
     margin-right: auto;
     font-size: 100%;
-    background-image: url("beachNet.jpg");
-    background-size: 100% auto;
-    background-repeat: no-repeat;
 }
 div {
     max-width: 900px;
     background-color: #404647;
-    opacity: 0.85;
-    background-size: 100%;
+    opacity: 0.90;
+    height: 100%;
     padding: 0;
-    height: 1000px;
+    border-left: solid 1px black;
+    border-right: solid 1px black;
+    border-bottom: solid 1px black;
 }
 ul {
     list-style-type: none;
@@ -50,16 +67,21 @@ li a{
     display: block;
     color: lightgrey;
     text-decoration: none;
-    border-style: solid;
-    border-width: 1px;
-    border-color: black;
+    border: solid black 1px;
     padding: 8px 16px;
 }
-
+li a:last-child {
+    border-left: 1px;
+}
+li a:hover {
+    color: aqua;
+}
+li a:visited {
+    color: purple;
+}
 li {
-    width: 20%;
     float: left;
-    background-color: darkblue;
+    width: 25%;
 }
 p {
     margin-right: 16px;
@@ -68,4 +90,46 @@ p {
     padding-left: 16px;
     text-align: center;
     color: #d9dfe0;
+}
+a {
+    display: block;
+    background-color: darkslateblue;
+    padding: 16px;
+}
+[alt="High-Five"]{
+    height: 50%;
+    width: 50%;
+    border: solid 3px;
+}
+[alt="Game"] {
+    height: 30%;
+    width: 30%;
+    border: solid 3px;
+}
+[alt="Spike"] {
+    height: 50%;
+    width: 50%;
+    border: solid 3px;
+}
+.forms {
+    text-align: left;
+    padding: 30px;
+    border: solid 1px black;
+    margin: 2% 5% 5% 5%;
+}
+.Guide {
+    text-align: left;
+    margin: 8px;
+    padding: 0;
+}
+footer {
+    border-left: solid 1px black;
+    border-right: solid 1px black;
+    border-bottom: solid 1px black;
+    background-color: black;
+}
+.contact {
+    padding: 10px 1px 1px 10px;
+    margin: auto;
+    text-align: left;
 }
